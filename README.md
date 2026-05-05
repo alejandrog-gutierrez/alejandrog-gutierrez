@@ -154,7 +154,7 @@ The focus was deliberately on the happy path: the business-critical sequence tha
 
 ## Certifications & Education
 
-- **[QA Engineer & Tester Certification](URL_HERE)** — TripleTen · 2026
+- **[QA Engineer & Tester Certification](https://drive.google.com/file/d/13dld7cTgtnFbmJZgMbUTMvLBrhJo8H32/view)** — TripleTen · 2026
 - **Bachelor's Degree in Graphic Design** — 2025
 
 ## Currently Learning
