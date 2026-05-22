@@ -81,7 +81,7 @@ Right now I'm focused on landing a role in a product company where I can grow al
 
 ## **Testing Design**<br>
 ![Test Case Design](https://img.shields.io/badge/Test_Case_Design-6B4FBB?style=flat-square)
-![Equivalence_Partitioning](https://img.shields.io/badge/Equivalence_Partitioning-6B4FBB?style=flat-square)
+![Equivalence_Partitioning](https://img.shields.io/badge/Equivalence_Partitioning-0891B2?style=flat-square)
 ![Functional Testing](https://img.shields.io/badge/Functional_Testing-2EA44F?style=flat-square)
 ![Smoke Testing](https://img.shields.io/badge/Smoke_Testing-6B7280?style=flat-square)
 ![Regression Testing](https://img.shields.io/badge/Regression_Testing-6B4FBB?style=flat-square)
