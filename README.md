@@ -81,6 +81,7 @@ Right now I'm focused on landing a role in a product company where I can grow al
 
 ## **Testing Design**<br>
 ![Test Case Design](https://img.shields.io/badge/Test_Case_Design-6B4FBB?style=flat-square)
+![Equivalence_Partitioning](https://img.shields.io/badge/Equivalence_Partitioning-6B4FBB?style=flat-square)
 ![Functional Testing](https://img.shields.io/badge/Functional_Testing-2EA44F?style=flat-square)
 ![Smoke Testing](https://img.shields.io/badge/Smoke_Testing-6B7280?style=flat-square)
 ![Regression Testing](https://img.shields.io/badge/Regression_Testing-6B4FBB?style=flat-square)
@@ -99,6 +100,31 @@ Right now I'm focused on landing a role in a product company where I can grow al
 ---
 
 ## Featured Projects
+
+---
+
+### Manual Chaos — Testing a Store Built to Break _(Saucedemo.com)_
+
+![Manual Testing](https://img.shields.io/badge/Manual_Testing-6B7280?style=flat-square)
+![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
+
+**_The challenge_**
+
+Saucedemo is a sandbox e-commerce app built by Sauce Labs, designed to simulate a complete purchase flow with six intentionally broken user profiles. The goal was to design and execute a full manual QA suite — not just run through the happy path, but systematically expose what breaks, how it breaks, and why it matters.
+
+**_The process_**
+
+Test cases were designed before a single test was executed. UX/UI and functional cases were kept separate from the start, with a deliberate decision to use a single set of cases executed across all six users — rather than designing six separate suites — to demonstrate reusability and equivalence partitioning. A compatibility matrix was built based on real usage statistics from StatCounter, and Chrome DevTools was used throughout execution to go beyond surface-level bug reporting: DOM inspection, Network tab analysis, and Event Listener review were used to identify root causes and rule out backend vs. frontend origins.
+
+**_The results_**
+
+- 116 test cases · 6 users · 3 platform/browser combinations
+- 32 bugs documented (BUGSL-001 to BUGSL-032) — 2 Critical, 13 High, 8 Medium, 9 Low
+- Key findings: a cross-user cart privacy violation, a backend 503 crash triggered by an invalid product entry, a completely broken checkout flow in two user profiles, and a visual user riddled with misplaced elements and incorrect prices
+- Key lesson: a well-designed test suite doesn't just find bugs — it tells a story about where the product is solid and where it falls apart
+
+📁 [View Repository](https://github.com/alejandrog-gutierrez/Saucedemo_test_suite_manual)
 
 ---
 
